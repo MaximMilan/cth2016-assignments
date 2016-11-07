@@ -31,121 +31,151 @@ program
   .version('0.0.1')
   .option('-T, --Title [String]', 'Title of the book', 'null') 
   .option('--Author [String]', 'Author of the book', 'null')
-  .option('-P, --Price', 'Price of the Book', 'null')
+  .option('-P, --Price [Code]', 'Price of the Book', 'null')
+  .option('-K, --Kind [String]', 'Kind of cover', 'null')
   .parse(process.argv);							
 
 switch(program.Title) 
 	{
 	case(Title1):
-		console.log(Title1);
-		console.log(Author1);
-		console.log(Price1);
-		console.log(Kind1)
+		console.log("Title: " + Title1);
+		console.log("Author: " + Author1);
+		console.log("Price: " + Price1);
+		console.log("Kind: " + Kind1)
 		break;
 	case(Title2):
-		console.log(Title2);
-		console.log(Author2);
-		console.log(Price2);
-		console.log(Kind2)
+		console.log("Title: " + Title2);
+		console.log("Author: " + Author2);
+		console.log("Price: " + Price2);
+		console.log("Kind: " + Kind2)
 		break;
 	case(Title3):
-		console.log(Title3);
-		console.log(Author3);
-		console.log(Price3);
-		console.log(Kind3)
+		console.log("Title: " + Title3);
+		console.log("Author: " + Author3);
+		console.log("Price: " + Price3);
+		console.log("Kind: " + Kind3)
 		break;
 	case(Title4):
-		console.log(Title4);
-		console.log(Author4);
-		console.log(Price4);
-		console.log(Kind4)
+		console.log("Title: " + Title4);
+		console.log("Author: " + Author4);
+		console.log("Price: " + Price4);
+		console.log("Kind: " + Kind4)
 		break;
 	case(Title5):
-		console.log(Title5);
-		console.log(Author5);
-		console.log(Price5);
-		console.log(Kind5)
-		break;
-	default:
-		console.log('empty');
-		break;
-	
-	}
-
-console.log("---->" + program.Author);
-
-switch(program.Author) 
-	{
-	case(Author1):
-		console.log("Title" + Title1);
-		console.log(Author1);
-		console.log(Price1);
-		console.log(Kind1)
-		break;
-	case(Author2):
-		console.log(Title2);
-		console.log(Author2);
-		console.log(Price2);
-		console.log(Kind2)
-		break;
-	case(Author3):
-		console.log(Title3);
-		console.log(Author3);
-		console.log(Price3);
-		console.log(Kind3)
-		break;
-	case(Author4):
-		console.log(Title4);
-		console.log(Author4);
-		console.log(Price4);
-		console.log(Kind4)
-		break;
-	case(Author5):
-		console.log(Title5);
-		console.log(Author5);
-		console.log(Price5);
-		console.log(Kind5)
+		console.log("Title: " + Title5);
+		console.log("Author: " + Author5);
+		console.log("Price: " + Price5);
+		console.log("Kind: " + Kind5)
 		break;
 	case("null"):
 		break;
-	default:
-		console.log('empty');
+
+	}
+switch(program.Author) 
+	{
+	case(Author1):
+		console.log("Title: " + Title1);
+		console.log("Author: " + Author1);
+		console.log("Price: " + Price1);
+		console.log("Kind: " + Kind1)
+		break;
+	case(Author2):
+		console.log("Title: " + Title2);
+		console.log("Author: " + Author2);
+		console.log("Price: " + Price2);
+		console.log("Kind: " + Kind2)
+		break;
+	case(Author3):
+		console.log("Title: " + Title3);
+		console.log("Author: " + Author3);
+		console.log("Price: " + Price3);
+		console.log("Kind: " + Kind3)
+		break;
+	case(Author4):
+		console.log("Title: " + Title4);
+		console.log("Author: " + Author4);
+		console.log("Price: " + Price4);
+		console.log("Kind: " + Kind4)
+		break;
+	case(Author5):
+		console.log("Title: " + Title5);
+		console.log("Author: " + Author5);
+		console.log("Price: " + Price5);
+		console.log("Kind: " + Kind5)
+		break;
+	case("null"):
 		break;
 
 	}
 switch(program.Price)
 	{
 	case(Price1):
-		console.log(Title1);
-		console.log(Author1);
-		console.log(Price1);
-		console.log(Kind1)
+		console.log("Title: " + Title1);
+		console.log("Author: " + Author1);
+		console.log("Price: " + Price1);
+		console.log("Kind: " + Kind1)
 		break;
 	case(Price2):
-		console.log(Title2);
-		console.log(Author2);
-		console.log(Price2);
-		console.log(Kind2)
+		console.log("Title: " + Title2);
+		console.log("Author: " + Author2);
+		console.log("Price: " + Price2);
+		console.log("Kind: " + Kind2)
 		break;
 	case(Price3):
-		console.log(Title3);
-		console.log(Author3);
-		console.log(Price3);
-		console.log(Kind3)
+		console.log("Title: " + Title3);
+		console.log("Author: " + Author3);
+		console.log("Price: " + Price3);
+		console.log("Kind: " + Kind3)
 		break;
 	case(Price4):
-		console.log(Title4);
-		console.log(Author4);
-		console.log(Price4);
-		console.log(Kind4)
+		console.log("Title: " + Title4);
+		console.log("Author: " + Author4);
+		console.log("Price: " + Price4);
+		console.log("Kind: " + Kind4)
 		break;
 	case(Price5):
-		console.log(Title5);
-		console.log(Author5);
-		console.log(Price5);
-		console.log(Kind5)
+		console.log("Title: " + Title5);
+		console.log("Author: " + Author5);
+		console.log("Price: " + Price5);
+		console.log("Kind: " + Kind5)
 		break;
-	default:
-		console.log('empty');
-		break;		
-}
+	case("null"):
+		break;
+	
+	}
+switch(program.Kind)
+	{
+	case(Kind1):
+		console.log("Title: " + Title1);
+		console.log("Author: " + Author1);
+		console.log("Price: " + Price1);
+		console.log("Kind: " + Kind1)
+		break;
+	case(Kind2):
+		console.log("Title: " + Title2);
+		console.log("Author: " + Author2);
+		console.log("Price: " + Price2);
+		console.log("Kind: " + Kind2)
+		break;
+	case(Kind3):
+		console.log("Title: " + Title3);
+		console.log("Author: " + Author3);
+		console.log("Price: " + Price3);
+		console.log("Kind: " + Kind3)
+		break;
+	case(Kind4):
+		console.log("Title: " + Title4);
+		console.log("Author: " + Author4);
+		console.log("Price: " + Price4);
+		console.log("Kind: " + Kind4)
+		break;
+	case(Kind5):
+		console.log("Title: " + Title5);
+		console.log("Author: " + Author5);
+		console.log("Price: " + Price5);
+		console.log("Kind: " + Kind5)
+		break;
+	case("null"):
+		break;
+		
+	}

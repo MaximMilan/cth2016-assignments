@@ -5,5 +5,8 @@
 
     -h, --help            output usage information
     -V, --version         output the version number
-    -T, --Title [string]  Title of the book
+    -T, --Title [String]  Title of the book
+    --Author [String]     Author of the book
+    -P, --Price           Price of the Book
+    -K, --Kind            Kind of cover
 
